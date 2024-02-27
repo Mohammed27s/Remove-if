@@ -1,0 +1,36 @@
+
+
+//Remove If
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+public class Remove {
+
+    public static void main(String[] args){
+
+        Set<Integer> setRemove = new HashSet<>();
+
+        setRemove.add(1);
+        setRemove.add(2);
+        setRemove.add(32);
+        setRemove.add(12);
+
+        System.out.println("The set elements :  "+setRemove+"\n");
+
+
+        setRemove.remove(2);
+
+        System.out.println("After removing the third element : "+setRemove);
+
+
+
+
+
+
+
+
+    }
+}
